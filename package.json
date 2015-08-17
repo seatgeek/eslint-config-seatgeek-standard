@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/seatgeek/eslint-config-seatgeek-standard",
   "peerDependencies": {
-    "eslint-config-semistandard": "^5.0.0",
+    "eslint-config-semistandard": "^5.0.0"
   },
   "dependencies": {
     "eslint": "^1.1.0",
