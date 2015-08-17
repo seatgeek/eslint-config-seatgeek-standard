@@ -1,0 +1,1 @@
+# Seatgeek ESLint Configuration
