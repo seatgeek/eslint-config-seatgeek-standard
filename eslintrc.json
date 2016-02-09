@@ -6,7 +6,10 @@
     "generator-star-spacing": [2, {"before": true, "after": false}],
     "indent": [2, 2, {"VariableDeclarator": 2}],
     "linebreak-style": [2, "unix"],
+    "no-alert": 2,
+    "no-useless-call": 2,
     "one-var": 0,
+    "radix": 2,
     "space-before-function-paren": [2, "never"]
   }
 }
