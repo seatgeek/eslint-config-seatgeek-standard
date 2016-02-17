@@ -6,10 +6,15 @@
     "generator-star-spacing": [2, {"before": true, "after": false}],
     "indent": [2, 2, {"VariableDeclarator": 2}],
     "linebreak-style": [2, "unix"],
+    "one-var": 0,
+    "space-before-function-paren": [2, "never"],
+
+    "semi": [2, "always"],
+    "no-extra-semi": 2,
+    "semi-spacing": [2, { "before": false, "after": true }],
+
     "no-alert": 2,
     "no-useless-call": 2,
-    "one-var": 0,
-    "radix": 2,
-    "space-before-function-paren": [2, "never"]
+    "radix": 2
   }
 }
