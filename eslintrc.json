@@ -1,4 +1,6 @@
 {
+  "extends": "standard",
+  
   "rules": {
     "curly": [2, "all"],
     "generator-star-spacing": [2, {"before": true, "after": false}],
