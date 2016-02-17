@@ -1,6 +1,6 @@
 {
   "extends": "standard",
-  
+
   "rules": {
     "curly": [2, "all"],
     "generator-star-spacing": [2, {"before": true, "after": false}],
@@ -8,6 +8,7 @@
     "linebreak-style": [2, "unix"],
     "one-var": 0,
     "space-before-function-paren": [2, "never"],
+    "jsx-quotes": [2, "prefer-double"],
 
     "semi": [2, "always"],
     "no-extra-semi": 2,
