@@ -5,6 +5,12 @@
   ],
 
   "rules": {
+    "prettier/prettier": "error",
+    
+    "camelcase": 0,
+    "no-template-curly-in-string": 0,
+    "standard/computed-property-even-spacing": 0,
+
     "linebreak-style": [2, "unix"],
     "one-var": 0,
 
