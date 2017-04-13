@@ -1,23 +1,14 @@
 {
-  "extends": "standard",
+  "extends": [
+    "standard",
+    "prettier"
+  ],
 
   "rules": {
-    "arrow-parens": [2, "as-needed"],
-    "curly": [2, "all"],
-    "generator-star-spacing": [2, {"before": true, "after": false}],
-    "indent": [2, 2, {"VariableDeclarator": 2}],
     "linebreak-style": [2, "unix"],
     "one-var": 0,
-    "space-before-function-paren": [2, "never"],
-    "jsx-quotes": [2, "prefer-double"],
-
-    "semi": [2, "always"],
-    "no-extra-semi": 2,
-    "semi-spacing": [2, { "before": false, "after": true }],
 
     "array-callback-return": 2,
-    "no-whitespace-before-property": 2,
-    "one-var-declaration-per-line": 2,
     "no-nested-ternary": 2,
     "no-alert": 2,
     "no-useless-call": 2,
