@@ -5,7 +5,7 @@
   ],
 
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {"singleQuote": true}],
     
     "camelcase": 0,
     "no-template-curly-in-string": 0,
