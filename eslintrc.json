@@ -4,20 +4,48 @@
     "prettier"
   ],
 
+  "plugins": [
+    "import",
+    "jest"
+  ],
+
   "rules": {
     "prettier/prettier": ["error", {"singleQuote": true}],
-    
-    "camelcase": 0,
-    "no-template-curly-in-string": 0,
-    "standard/computed-property-even-spacing": 0,
 
-    "linebreak-style": [2, "unix"],
-    "one-var": 0,
+    "camelcase": "off",
+    "no-template-curly-in-string": "off",
+    "standard/computed-property-even-spacing": "off",
 
-    "array-callback-return": 2,
-    "no-nested-ternary": 2,
-    "no-alert": 2,
-    "no-useless-call": 2,
-    "radix": 2
+    "linebreak-style": ["error", "unix"],
+    "one-var": "off",
+
+    "array-callback-return": "error",
+    "no-nested-ternary": "error",
+    "no-alert": "error",
+    "no-useless-call": "error",
+    "radix": "error",
+
+    "jest/no-disabled-tests": "error",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+
+    "import/export": "error",
+    "import/extensions": ["error", {
+      "js": "never",
+      "jsx": "always"
+    }],
+    "import/no-absolute-path": "error",
+    "import/no-dynamic-require": "error",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": "error",
+    "import/no-unresolved": "error",
+    "import/no-webpack-loader-syntax": "error"
+  },
+
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ]
   }
 }
