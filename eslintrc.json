@@ -6,7 +6,8 @@
 
   "plugins": [
     "import",
-    "jest"
+    "jest",
+    "prettier"
   ],
 
   "rules": {
