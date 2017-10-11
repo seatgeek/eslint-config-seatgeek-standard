@@ -19,7 +19,7 @@
     "configuration"
   ],
   "author": "Gareth Tan (http://garethtan.com/)",
-  "license": "BSD2",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/seatgeek/eslint-config-seatgeek-standard/issues"
   },
